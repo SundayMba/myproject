@@ -1,3 +1,13 @@
 a{
     margin: 5px;
 }
+.img_left{
+    height: 350px;
+    overflow: hidden;
+}
+@media screen and (max-width: 576px)
+{
+    .img_left{
+        width: fit-content;
+    }
+}
